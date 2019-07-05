@@ -1,5 +1,5 @@
 sum: sum.o main.o
-	g++ sum sum.o main.o
+	g++ -o sum sum.o main.o
 
 sum.o: sum.h sum.cpp
 	g++ -c -o sum.o sum.cpp
